@@ -17,7 +17,7 @@ background_mode = 2
 sky = SubResource("Sky_fj7yv")
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_fj7yv"]
-size = Vector2(100, 100)
+size = Vector2(10, 10)
 
 [node name="World" type="Node3D"]
 
@@ -30,9 +30,6 @@ shadow_enabled = true
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("PlaneMesh_fj7yv")
-
-[node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.932746, 0.360534, 0, -0.360534, 0.932746, 0, 1.58463, 2.71164)
 
 [node name="Player" parent="." instance=ExtResource("1_f3sb7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.941992, 0)
