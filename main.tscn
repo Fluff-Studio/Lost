@@ -3,9 +3,10 @@
 [ext_resource type="Script" uid="uid://gnjbq0cgqc6b" path="res://Main.cs" id="1_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://bv00xqqh03858" path="res://world.tscn" id="2_h2yge"]
 
-[node name="main" type="Node2D"]
+[node name="main" type="Node2D" node_paths=PackedStringArray("playButton")]
 script = ExtResource("1_0xm2m")
 world = ExtResource("2_h2yge")
+playButton = NodePath("Play")
 
 [node name="Play" type="Button" parent="."]
 offset_left = 295.0
