@@ -9,18 +9,9 @@ world = ExtResource("2_h2yge")
 playButton = NodePath("Play")
 
 [node name="Play" type="Button" parent="."]
-anchors_preset = -1
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -245.0
-offset_top = -53.0
-offset_right = 245.0
-offset_bottom = 53.0
-grow_horizontal = 2
-grow_vertical = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
+offset_left = 295.0
+offset_top = 272.0
+offset_right = 785.0
+offset_bottom = 378.0
 text = "Play
 "
-
-[node name="Camera2D" type="Camera2D" parent="."]
